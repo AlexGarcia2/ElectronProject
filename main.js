@@ -1,5 +1,8 @@
 // Modules
 const {app, BrowserWindow} = require('electron')
+const colors = require('colors')
+
+console.log( colors.rainbow('hello world'))
 
 // Keep a global reference of the window object, if you don't, the window will
 // be closed automatically when the JavaScript object is garbage collected.
